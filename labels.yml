@@ -1,0 +1,40 @@
+# Type — applied by issue templates
+- name: "type:feature"
+  color: "0E8A16"
+  description: "Something new that should exist"
+- name: "type:bug"
+  color: "D73A4A"
+  description: "Something that's broken"
+- name: "type:task"
+  color: "1D76DB"
+  description: "Refactor, upgrade, cleanup, config, docs"
+
+# Flags — agents react to these
+- name: "blocked"
+  color: "B60205"
+  description: "Waiting on something outside this ticket; agents skip"
+- name: "needs-info"
+  color: "FBCA04"
+  description: "Unclear ticket; agent asked questions in a comment"
+- name: "security"
+  color: "5319E7"
+  description: "Touches auth, permissions, or sensitive data; draft PR only"
+
+# Stack — where the work lives
+- name: "frontend"
+  color: "C5DEF5"
+  description: "Vue / TypeScript / UI"
+- name: "backend"
+  color: "BFD4F2"
+  description: "Laravel / PHP / APIs"
+- name: "database"
+  color: "D4C5F9"
+  description: "Migrations, schema, queries"
+- name: "infra"
+  color: "E4E669"
+  description: "CI, deploys, environment, config"
+
+# Tooling
+- name: "dependencies"
+  color: "0366D6"
+  description: "Dependency updates"
